@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Security-Policy" content="default-src *; img-src data: *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'  http://maps.googleapis.com  " />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/corona.css" />
+
+    <script type="text/javascript" src="js/index.js"></script>
+      
+    <script type="text/javascript" src="js/coronawms.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" src="js/PushNotification.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
+      <script type="text/javascript" src="js/SQLite3.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      document.addEventListener("deviceready", onDeviceReady, false);
+    </script>
+    <title>CORONA WMS</title>
+  </head>
+  <body>
+    <div data-role="page"  data-theme="a">
+      <div data-role="content">      
+        <p>Log In</p>
+
+        Username:<input type="text" id="username" value=""><br>
+        Password:<input type="password" id="password" value=""><br>
+      </div>
+    </div><!-- /page --> 
+  </body>
+</html> 

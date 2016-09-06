@@ -27,7 +27,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite3", "..\..\plugins\co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite3", "..\..\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.WindowsPhone\SQLite3.WindowsPhone.vcxproj", "{6435C2E4-4FD2-405A-9EE2-5312AE852782}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite3Component", "..\SQLite3-WinRT-background_task_test\SQLite3Component\SQLite3Component.vcxproj", "{4CF1AE34-D183-409B-90C3-D62167CFF25D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite3Component", "SQLite3-WinRT-background_task_test\SQLite3Component\SQLite3Component.vcxproj", "{4CF1AE34-D183-409B-90C3-D62167CFF25D}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
